@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    background:#5E5D78; 
+}
+.menu ul{
+    display: inline-flex;
+    margin:50px;
+    margin-top:80px;
+}
+.menu ul li{
+    display: inline-flex;
+    margin:50px;
+    cursor: pointer;
+    color:#fff;
+}
+html,body{
+    height:100%;
+}
+.logo img{
+    height:200px;
+    margin-top:-130px;
+    margin-left:-50px;
+    margin-right:10px;
+}
+.active{
+    text-decoration:none;
+    color:#fff;
+}
+.detCurso{
+    text-decoration:none;
+    color:#fff;
+}
+.disc{
+    text-decoration:none;
+    color:#fff;
+}
+.note{
+    text-decoration:none;
+    color:#fff;
+}
+.login{
+    display:block;
+    top: 120px;
+    right: 80px;
+    position: absolute;
+    text-decoration:none;
+    color:#fff;
+    border:2px solid transparent;
+    border-radius:20px;
+    background-image:linear-gradient(#5E5D78,#5E5D78),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip:content-box,border-box;
+
+}
+.login span{
+    display:block;
+    padding: 8px 22px;
+}
+.banner{
+    width: 80%;
+    height: 70;
+    top:35%;
+    left:130px;
+    position:absolute;
+    color:#fff
+}
+.app-text{
+    width: 50%;
+    float: left;
+}
+.app-text h1{
+    font-size: 68px;
+    width: 640px;
+    position:relative;
+    margin-left: 40px;
+}
+.app-text p{
+    width: 650px;
+    font-size:23px;
+    margin:30px 0 30px 40px;
+    line-height:25px;
+    color:#E2E1E4;
+}
+.app-picture{
+    width:50%;
+    float:right;
+}
+.app-picture img{
+    width:80%;
+    float:right;
+    margin-top:-60px;
+    margin-right:20px;
+}
+.cursos ul{
+    margin-top: -50px;
+    margin-left:150px;
+}
+.cursos li{
+    display:block;
+    padding:30px;
+}
+.curso1 h1{
+    font-size:60px;
+    color:white;
+}
+.curso1 p{
+    font-size:20px;
+    color:white;
+    line-height:25px;   
+}
+
+.curso2 h1{
+    font-size:60px;
+    color:#fff;
+}
+.curso2 p{
+    font-size:20px;
+    color:white;
+    line-height:25px;
+}
+.cursopic{
+    width:50%;
+    float:right;
+}
+.cursopic img{
+    width:65%;
+    margin-top:-500px;
+}
+.detalheText{
+    width:50px;
+    float:left;
+}
+.detText h1{
+    font-size:68px;
+    width:640px;
+    position:relative;
+    margin-left:40px;
+    color:#fff;
+}
+.detText p{
+    width:650px;
+    font-size:23px;
+    color:#fff;
+    margin:30px 0 30px 40px;
+    line-height:30px;
+}
+.banner2{
+    width: 80%;
+    height: 70;
+    top:35%;
+    left:130px;
+    position:absolute;
+    color:#fff;
+}
+.detalhepic{
+    width:50%;
+    float:right;
+}
+.detalhepic img{
+    width:65%;
+    margin-top:-70px;
+}
+.bannerDisciplina{
+    width: 80%;
+    height: 70;
+    top:35%;
+    left:130px;
+    position:absolute;
+    color:#fff
+}
+.discText{
+    width: 50%;
+    float: left;
+}
+.discText h1{
+    font-size: 68px;
+    width: 640px;
+    position:relative;
+    margin-left: 40px;
+}
+.discText p{
+    width: 650px;
+    font-size:23px;
+    margin:30px 0 30px 40px;
+    line-height:25px;
+    color:#E2E1E4;
+}
+.disciplinapic{
+    width:50%;
+    float:right;
+}
+.disciplinapic img{
+    width:80%;
+    float:right;
+    margin-top:-60px;
+    margin-right:50px;
+}
+.menuNoticia ul{
+    margin-top:250px;
+    margin-left:150px;
+    display:inline-flex;
+}
+.noticias li{
+    color:#fff;
+    padding:30px;
+}
+.omeletefoto img{
+    width:20%;
+    float:left;
+    margin-top:-525px;
+    margin-left:700px;
+    cursor:pointer;
+}
+.suflepic img{
+    width:20%;
+    float:left;
+    margin-top:-525px;
+    margin-left:210px;
+    cursor:pointer;
+}
